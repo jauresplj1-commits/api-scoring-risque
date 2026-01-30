@@ -1,0 +1,35 @@
+# pyproject.toml
+
+[project]
+name = "api-scoring-risque"
+version = "1.0.0"
+description = "API de Scoring de Risque d'Insolvabilité"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "Django==4.2.27",
+    "djangorestframework==3.15.2",
+    "djangorestframework-simplejwt==5.3.1",
+    "drf-yasg==1.21.7",
+    "scikit-learn==1.5.2",
+    "pandas==2.2.3",
+    "numpy==1.26.4",
+    "shap==0.45.1",
+    "python-dotenv==1.0.1",
+    "psycopg2-binary==2.9.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==24.10.0",
+    "flake8==7.1.1",
+    "pytest==8.3.4",
+    "pytest-django==4.9.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["black", "flake8", "pytest", "pytest-django"]
