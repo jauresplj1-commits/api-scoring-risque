@@ -525,7 +525,7 @@ MIT License — Voir le fichier LICENSE pour plus de détails
 
 ## 👨‍💻 Auteur
 
-Développé avec ❤️ pour l'évaluation du risque d'insolvabilité
+Développé par PIMAGHA LONTCHI JAURES pour l'évaluation du risque d'insolvabilité
 
 ---
 
